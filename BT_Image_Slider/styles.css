@@ -60,16 +60,16 @@ body {
 }
 
 #radio1:checked ~ .first {
-    margin-left: 0;
+    margin-left: 0px;
 }
-#radio2:checked ~ .first {
-    margin-left: -20px;
+#radio2:checked ~ .second {
+    margin-left: -800px;
 }
-#radio3:checked ~ .first {
-    margin-left: -40px;
+#radio3:checked ~ .third {
+    margin-left: -800px;
 }
-#radio1:checked ~ .first {
-    margin-left: -60px;
+#radio4:checked ~ .fourth {
+    margin-left: -800px;
 }
 
 .navigation-auto {
